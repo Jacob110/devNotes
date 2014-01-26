@@ -1,9 +1,9 @@
 #! /usr/bin/env python
 import MySQLdb
 host='localhost'
-password='yjj'
-user='root'
-dbname='yjj'
+password='yourpwd'
+user='youruser'
+dbname='yourdbname'
 
 db=MySQLdb.connect(host=host,user=user,passwd=password,db=dbname)
 cursor=db.cursor()
